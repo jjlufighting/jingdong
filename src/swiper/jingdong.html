@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .wrapper{
+        width:400px;
+        height: 350px;
+        border: 1px solid black;
+         
+    }
+    
+</style>
+<body>
+    <div class="wrapper"></div>  
+    
+<script src="./jquery-3.1.1.min.js"></script>
+<script src="./jingdong.js"></script>
+<script> 
+    $('.wrapper').swiper({
+        imgList: ['../img/000.jpg','../img/0003.jpg','../img/05.jpg'],
+        animateType:'fade',
+        changeBtn:true,
+        showPointBtn:true,
+        isAuto:true,
+    });
+</script>
+</body>
+</html>
